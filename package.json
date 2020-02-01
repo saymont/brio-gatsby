@@ -1,0 +1,41 @@
+{
+  "name": "brio-gatsby",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "ftp-deploy": "^2.3.3",
+    "gatsby": "^2.2.9",
+    "gatsby-plugin-manifest": "^2.0.24",
+    "gatsby-plugin-offline": "^2.0.25",
+    "gatsby-plugin-react-helmet": "^3.0.10",
+    "gatsby-plugin-sass": "^2.0.11",
+    "headroom.js": "^0.11.0",
+    "node-sass": "^4.11.0",
+    "nouislider": "^14.1.1",
+    "react": "^16.8.5",
+    "react-datetime": "^2.16.3",
+    "react-dom": "^16.8.5",
+    "react-helmet": "^5.2.0",
+    "react-images": "^0.5.19",
+    "reactstrap": "^8.4.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "deploy": "node deploy",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write '**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^1.14.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saymont/brio-gatsby"
+  }
+}
